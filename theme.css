@@ -1,0 +1,156 @@
+@charset "utf-8";
+/*Style the nav bar======================*/
+nav li
+{
+list-style-type: none;
+display: inline;
+margin-right: 40px;
+
+/*text-decoration: none;*/
+}
+/*Styling the a tag=============================*/
+nav li a{
+  text-decoration: none;
+  font-family: fantasy;
+  font-weight: bold;
+  font-size: 25px;
+  color: #08457e;
+
+}
+
+nav
+{
+background-color: #8acfff;
+height: 50px;
+width: 100%;
+
+}
+
+h3
+{
+font-family: fantasy;
+font-size: 30px;
+font-weight: lighter;
+text-align: center;
+}
+
+h2
+{
+  font-family: fantasy;
+  font-size: 30px;
+  font-weight: lighter;
+
+}
+h1
+{
+  font-family: fantasy;
+  font-size: 40px;
+  color: #ed6c9e;
+  font-weight: bold;
+  text-align: center;
+}
+
+/*div box==================*/
+#box
+{
+  height: 600px;
+  width: 100%;
+  background-color: #c9c9c9;
+  border-radius: 5px;
+  text-align: center;
+}
+/*image style===================*/
+/*#box img
+{
+height: 200px;
+width: 200px;
+border-radius: 100%;
+*/
+}
+article
+{
+font-size: 30px;
+font-weight: lighter;
+font-family: fantasy;
+text-align: center;
+}
+/*Button Styles===================*/
+#block button, #block2 button
+{
+  height: 45px;
+  width: 150px;
+  border-radius: 3px;
+  font-family: fantasy;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#block button a, #block2 button a
+{
+text-decoration: none;
+}
+
+article h3 a
+{
+text-decoration: none;
+
+}
+
+nav li a:hover
+{
+border-bottom: 5px solid #08457e;
+
+}
+
+#block
+{
+color: white;
+background-color: #83a2be;
+text-align: center;
+height: 300px;
+width: inherit;
+font-size: 30px;
+font-family: fantasy;
+margin-left: 0;
+margin-right: 0;
+}
+
+#block2
+{
+  color: #053058;
+  background-color: #ffe9c1;
+  text-align: center;
+  height: 300px;
+  width: inherit;
+  font-size: 30px;
+  font-family: fantasy;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+#footer
+{
+  
+  background-color: transparent black;;
+  text-align: center;
+  height: 200px;
+  width: inherit;
+  font-size: 10px;
+  font-family: fantasy;
+  font-weight: lighter;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+body
+{
+  background-color: white;
+}
+
+#container
+{
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: #d8ffde;
+  border-radius: 5px;
+}
