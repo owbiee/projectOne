@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+#header
+{
+  height: 70px;
+  width: 100%;
+  background-color: #003366;
+  color: white;
+  font-family: cursive;
+  font-size: 30px;
+  position: sticky;
+  text-align: center;
+}
+
+#login input
+{
+width: 400px;
+height: 35px;
+font-size: 16px;
+
+}
+
+#login
+{
+  height: 400px;
+  margin-left:  25%;
+  margin-right: 25%;
+  text-align: center;
+  background-color: #0099CC;
+  border-left: 5px solid #142842;
+}
+
+#login button
+{
+  width: 400px;
+  height: 35px;
+  /*border-radius: 10px;*/
+  background-color: #ff4040;
+  color: white;
+  font-weight: bold;
+}
+
+html, body
+{
+  margin: 0px;
+  padding: 0px;
+  background-image: url("seaport-container-yard.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/*
+#footer
+{
+  height: 250px;
+  background-color: black;
+  opacity: 30%;
+}
+*/
+
+#container
+{
+  height: 100%;
+}
